@@ -1,22 +1,70 @@
 body {
   /* Change my background, and set global font family.*/
+  background-color: white;
 }
 
 .content-wrapper {
-  /* Center on page, set width */
+  /* Center on page, set width 
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}*/
 }
 
 header h1 {
   /* Make bigger and color, Change our font family to a sans serif and center */
-  
+  font-size: 4em; /* 40px/16=2.5em */ 
+  color:rebeccapurple;
+  font-family: "arial";
+  text-align: center; 
 }
 
-.main-nav {
+nav.main-nav {
   /* Change background color, remove bullets, border on each individual nav element. create and float links, center our content within the links. width, font color, change font family */
+  width: 70 em;
+  height: 3em;
+  background-color:mediumpurple;
 }
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-right: 3px solid green;
+    background-color: mediumpurple;
+}
+ .main-nav li {
+   
+   font-family: "arial";
+   font-size: 1em;
+   font-weight: bold;
+   width: 11em;
+     text-align: center;
+    border-right: 5px solid #6c6380;
+    float: left;
+}
+.main-nav li:last-child {
+    border-right: none;
+  }
+.main-nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+    background-color: lavender;
+}
+
+}*/ /*main-nav*/
 
 aside {
   /* clear float, background color, float, font color */
+  clear:both
 }
   aside ul {
     /* clear both, links? */
@@ -27,7 +75,8 @@ article {
 }
 
 figure {
-/* Center, size of the font */  
+/* Center, size of the font */ 
+  img {align-content: center}
 }
 
 footer {
