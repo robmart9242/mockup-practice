@@ -1,5 +1,6 @@
 body {
   /* Change my background, and set global font family.*/
+   font-family: "arial";
   background-color: lightgray;
 }
 
@@ -8,6 +9,7 @@ body {
     color: black;
     margin: auto;
     width: 68%;
+    text-align: center;
     border: 3px solid black;
 } 
 
@@ -15,6 +17,7 @@ header h1 {
   /* Make bigger and color, Change our font family to a sans serif and center */
   font-size: 4em; /* 40px/16=2.5em */ 
   background-color:white;
+  color:blueviolet;
   font-family: "arial";
   text-align: center;
   padding: .75em 0 .25em 0;
@@ -66,47 +69,49 @@ main-nav {
 
 aside {
   /* clear float, background color, float, font color */
-   color:#a79fa8;
- /* background-color:#dda4e5;*/
-   clear:both;
-   
+  clear: both;
+  background-color:#cabee5;
+  float: left;
+  width: 16em;
+  height: 33.5em;
+  font-family: "arial";
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 6em;
+  
+  
 }
 
   aside ul {
-    /* clear both, links? */
-    list-style-type: none;
-    background-color:#cabee5;
-    margin: 2em 0;
+list-style-type: none;
+    margin: 0;
     padding: 0;
-    width: 16em;
-    float: left;
-    font-family: "arial";
-    font-size: 1em;
-   font-weight: bold;
-     margin: 0 0 0 0;
-     width: 16em;
-  height: 38.4em;
+    overflow: hidden;
+    background-color:#cabee5;
+   
   }
 
-aside li:first-child {
-    padding-top: 6em;
+/*aside li:first-child {
+    padding-top: 6em;*/
 }
-
-aside li {
-  padding: 0 0 .5em 0;
+aside li  {
+   padding: 1em 1em;
+ width:90%;
+ 
 }
-
 aside li a {
+    /*align-content: center;*/
     display: block;
+     padding-bottom: 1em;
     color: white;
-    padding: 8px 16px;
+    padding: 1em 1em;
     text-decoration: none;
-   padding-left: 5em;
+    text-align: center;
+     width:90%;
 }
 
 aside li a:hover {
-    background-color: #555;
-    color: white;
+    background-color: #1111e6;   
 }
 
 article {
@@ -151,7 +156,6 @@ footer {
 
 footer img {
   clear: both;
-  float:left;
-  *padding-left: 2em;
+  text-align: center;
 }
 
