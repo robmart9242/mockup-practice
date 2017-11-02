@@ -73,7 +73,7 @@ aside {
   background-color:#cabee5;
   float: left;
   width: 16em;
-  height: 33.5em;
+  height: 35em;
   font-family: "arial";
   font-size: 1em;
   font-weight: bold;
@@ -83,41 +83,34 @@ aside {
 }
 
   aside ul {
-list-style-type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:#cabee5;
-   
+  
   }
 
-/*aside li:first-child {
-    padding-top: 6em;*/
-}
+
 aside li  {
-   padding: 1em 1em;
- width:90%;
+   padding: .5em .5em;
+ width:100%;
  
 }
 aside li a {
-    /*align-content: center;*/
     display: block;
-     padding-bottom: 1em;
     color: white;
-    padding: 1em 1em;
+    padding: .5em .5em;
     text-decoration: none;
     text-align: center;
-     width:90%;
+    width:100%;
 }
 
 aside li a:hover {
     background-color: #1111e6;   
 }
 
-article {
-  /* background-color, float to the right?, font size  */
 
-}
 /* Robert Martinez 11-1-17 */
 main-fig figure {
 /* Center, size of the font */ 
@@ -132,30 +125,30 @@ main-fig figure {
 }
 
 .main-fig img {
-  padding-left: 8em;
-  padding-top: 4.8em;
+  text-align: center;
+  padding-top: 6em;
   padding-bottom: 1em;
 }
 
 .main-fig figcaption {
+  text-align: center;
   padding-top: 1em;
-  padding-left: 20em;
-  padding-right: 20em;
+ padding-left: 20em;
+  padding-right: 10em;
   padding-bottom: 3em;
 }
 
 footer {
-  
-  /* float the images, create links, center links */
-  padding-top: 3em;
-  background-color:white;
-  margin: 0 0 0 0;
-  height: 7em;
-  padding-left:28em;
-}
-
-footer img {
   clear: both;
+ /* text-align: center;*/
+  background-color:white;
   text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
-
+footer img {
+  text-align: center;
+  background-color:white;
+  padding-left:1em;
+  padding-right:1em;
+}
