@@ -7,7 +7,7 @@ body {
   /* Center on page, set width */
     color: black;
     margin: auto;
-    width: 66.5%;
+    width: 68%;
     border: 3px solid black;
 } 
 
@@ -23,7 +23,7 @@ header h1 {
 
 main-nav {
   /* Change background color, remove bullets, border on each individual nav element. create and float links, center our content within the links. width, font color, change font family */
-  width: 70em;
+  width: 68em;
   height: 3em;
   background-color:mediumpurple;
 }
@@ -49,6 +49,7 @@ main-nav {
 
 .main-nav li:last-child {
     border-right: none;
+    padding-right: 1em;
   }
 
 .main-nav li a {
@@ -63,15 +64,12 @@ main-nav {
     background-color: #1111e6;
 }
 
-}*/ /*main-nav*/
-
 aside {
   /* clear float, background color, float, font color */
    color:#a79fa8;
  /* background-color:#dda4e5;*/
    clear:both;
-   padding-left: 6em; 
-   padding-top: 3em; 
+   
 }
 
   aside ul {
@@ -115,13 +113,12 @@ article {
   /* background-color, float to the right?, font size  */
 
 }
-
-/*"main-fig"*/
+/* Robert Martinez 11-1-17 */
 main-fig figure {
 /* Center, size of the font */ 
   /*margin: 2em 0;*/
   display: block;
-  margin-top: 2em;
+  margin-top: 2.4em;
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px; 
@@ -131,7 +128,7 @@ main-fig figure {
 
 .main-fig img {
   padding-left: 8em;
-  padding-top: 4.6em;
+  padding-top: 4.8em;
   padding-bottom: 1em;
 }
 
@@ -153,6 +150,8 @@ footer {
 }
 
 footer img {
-  padding-left: 2em;
+  clear: both;
+  float:left;
+  *padding-left: 2em;
 }
 
